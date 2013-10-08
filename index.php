@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>Faun and Phoenix</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -35,14 +35,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Faun and Pheonix</a>
+              <a class="navbar-brand" href="#">Faun and Phoenix</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
+                <!-- <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Action</a></li>
@@ -53,7 +53,7 @@
                     <li><a href="#">Separated link</a></li>
                     <li><a href="#">One more separated link</a></li>
                   </ul>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>
@@ -121,22 +121,22 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+          <img class="img-circle" src="images/phone.png" alt="iPhone">
+          <h2>Phoneless</h2>
+          <p>I've been going the last few weeks without my phone to see how it feels... I don't think I want to stop anytime soon!</p>
+          <p><a class="btn btn-default" href="#">Read More (Coming Soon)&raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+          <img class="img-circle" src="images/middle_school.jpg" alt="Middle School">
+          <h2>Gaming for Good</h2>
+          <p>I'm building a puzzle game for the iPad aimed at teaching Finite State Machines to middle school students in Hawaii.  If all goes well, they won't be the only ones wanting a turn!  Who knows... if we get to the top of the app store - will they fly me and the team out for a surfing trip?</p>
+          <p><a class="btn btn-default" href="#">Read More (Coming Soon) &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+          <img class="img-circle" src="images/elon_musk.jpg" alt="Elon Musk">
+          <h2>Harnessing Inspiration</h2>
+          <p>Elon Musk is a fascinating figure in entrepreneurship, engineering, and technology.  He's also got an inspiring attitude to match his grandeur, and one I've been learning more about recently.</p>
+          <p><a class="btn btn-default" href="#">Read More (Coming Soon) &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -145,25 +145,25 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette" id="a">
+      <div class="row featurette" id="about">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">About the Faun <br> <span class="text-muted">and the Phoenix</span></h2>
+          <p class="lead">The Faun is a mythological creature like the satyrs, but a bit gentler.  I find them fascinating and want to keep the animal in me alive.  The Phoenix is another captivating mythological creature - it is a bird that is cyclically reborn through its own ashes and a reminder for me to learn from my mistakes.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="images/phoenix.jpg" alt="Phoenix">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
-      <div class="row featurette" id="about">
+      <div class="row featurette" id="a">
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="images/john.jpg" alt="John Shaughnessy">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">A bit about me<br><span class="text-muted">and why I made this site</span></h2>
-          <p class="lead">My name is John Shaughnessy and I am a senior at Claremont McKenna College studying Math and Computer Science.  I made this site to share my interests with the world in a way that Facebook and other social media sites don't let me.</p>
+          <p class="lead">My name is John Shaughnessy and I am a senior at Claremont McKenna College studying Math and Computer Science.  This is the personal site through which I plan to share my thoughts and musings.</p>
         </div>
       </div>
 
@@ -171,7 +171,7 @@
 
       <div class="row featurette" id="contact">
         <div class="col-md-7">
-          <h2 class="featurette-heading">How to contact me <br><span class="text-muted">(and have me respond)</span></h2>
+          <h2 class="featurette-heading">How to contact me <br><span class="text-muted">so that I respond</span></h2>
           <p class="lead">The best way to contact me is by 
             <a 
                     href="mailto:jshaughnessy14@cmc.edu">sending me an email.</a> </p>
@@ -192,7 +192,7 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Faun and Pheonix, Inc. &middot; <a href="#">Contact</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2013 Faun and Phoenix, Inc. <!-- &middot; <a href="#">Contact</a> &middot; <a href="#">Terms</a> --></p>
       </footer>
 
     </div><!-- /.container -->
